@@ -25,7 +25,7 @@ export const Coin = () => {
     )
       .then((res) => res.json())
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         setCoinData(res);
       })
       .catch((err) => console.error(err));

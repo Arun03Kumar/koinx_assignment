@@ -40,3 +40,18 @@
   gap: 6px;
   margin-bottom: 30px;
 }
+
+.trending3 {
+  margin-left: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.trending-child {
+  padding: 24px 24px 20px 24px;
+}
+
+.trending-coins {
+  margin-top: 24px;
+}

@@ -73,3 +73,28 @@
   width: 100px;
   background-color: #0B1426;
 }
+
+.options {
+  font-weight: 500;
+  color: #3E424A;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.selectedOp {
+  color: #0141CF;
+  border-bottom: 3px solid #0052FE;
+}
+
+.template {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.t_title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
