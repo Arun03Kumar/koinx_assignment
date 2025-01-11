@@ -6,6 +6,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import LeftMain from "./components/Main/LeftMain";
 import RightMain from "./components/Main/RightMain";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -40,6 +41,17 @@ function App() {
         <LeftMain />
         <RightMain />
       </div>
+
+      <footer
+        style={{
+          width: "100%",
+          background: "#FFF",
+          padding: "68px",
+          marginTop: "78px",
+        }}
+      >
+        <Footer />
+      </footer>
 
       {/* <div>
         <a href="https://vite.dev" target="_blank">

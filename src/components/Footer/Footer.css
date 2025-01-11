@@ -1,0 +1,90 @@
+.carousel-container {
+  position: relative;
+  min-height: 160px;
+  width: 100%;
+  /* overflow: visible; */
+}
+
+.c_btn {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0px 0px 8px 0px #00000014;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  cursor: pointer;
+  border: 0px;
+}
+
+/* .btn_l {
+  
+} */
+
+.btn_r {
+  right: -10px;
+  /* transform: translateY(-20%); */
+}
+
+.btn_r > img {
+  transform: rotate(180deg);
+}
+
+.c_card_wrapper {
+  /* overflow-y: hidden; */
+  display: flex;
+  gap: 25px;
+  overflow-x: hidden;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.c_card_container {
+  flex: 0 0 auto;
+  width: 252px;
+  padding: 17px;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  scroll-snap-align: start;
+}
+
+.c_card_coin_img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.c_card_coin_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box {
+  width: 48px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+}
+
+.red_class {
+  background: rgba(238, 104, 85, 0.1);
+  color: #e96975;
+}
+
+.green_class {
+  background: rgba(10, 178, 125, 0.06);
+  color: #32be88;
+}
