@@ -2,7 +2,14 @@ import React from "react";
 
 export const Analyst = () => {
   return (
-    <div style={{ display: "flex", alignItems: "center", marginTop: "24px", marginBottom: "24px" }}>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        marginTop: "24px",
+        marginBottom: "24px",
+      }}
+    >
       <div
         style={{
           // textAlign: "center",

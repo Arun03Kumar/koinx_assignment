@@ -51,7 +51,13 @@ const RightMain = () => {
             {coinData?.map((item, idx) => {
               return (
                 <>
-                  <div style={{marginBottom: "20px", display: "flex", justifyContent: "space-between"}}>
+                  <div
+                    style={{
+                      marginBottom: "20px",
+                      display: "flex",
+                      justifyContent: "space-between",
+                    }}
+                  >
                     <div style={{ display: "flex", alignItems: "center" }}>
                       <div
                         style={{
@@ -71,15 +77,30 @@ const RightMain = () => {
                           }}
                         />
                       </div>
-                      <p style={{fontWeight: 500, marginLeft: "6px", color: "#0F1629"}}>
+                      <p
+                        style={{
+                          fontWeight: 500,
+                          marginLeft: "6px",
+                          color: "#0F1629",
+                        }}
+                      >
                         {item?.item?.name}
                         {`(${item?.item?.symbol})`}
                       </p>
                     </div>
                     <div className="change">
                       <img src={up} alt="" />
-                      <p style={{ fontWeight: 500, color: "#14B079", marginLeft: "8px" }}>
-                        {item?.item?.data?.price_change_percentage_24h?.btc?.toFixed(2)}%
+                      <p
+                        style={{
+                          fontWeight: 500,
+                          color: "#14B079",
+                          marginLeft: "8px",
+                        }}
+                      >
+                        {item?.item?.data?.price_change_percentage_24h?.btc?.toFixed(
+                          2
+                        )}
+                        %
                       </p>
                     </div>
                   </div>

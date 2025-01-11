@@ -18,14 +18,14 @@
 }
 
 .coin-short {
-  color: #5D667B;
+  color: #5d667b;
   font-weight: 600;
 }
 
 .rank {
   width: 80px;
   height: 40px;
-  border: 1px solid #808A9D;
+  border: 1px solid #808a9d;
   border-radius: 8px;
   background: #768396;
   display: flex;
@@ -47,14 +47,14 @@
   font-size: 28px;
   font-weight: 600;
   line-height: 38px;
-  color: #0B1426;
+  color: #0b1426;
 }
 
 .change {
   width: 84px;
   height: 28px;
   border-radius: 4px;
-  background: #EBF9F4;
+  background: #ebf9f4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,19 +71,19 @@
 .hl {
   height: 1px;
   width: 100px;
-  background-color: #0B1426;
+  background-color: #0b1426;
 }
 
 .options {
   font-weight: 500;
-  color: #3E424A;
+  color: #3e424a;
   padding-bottom: 15px;
   cursor: pointer;
 }
 
 .selectedOp {
-  color: #0141CF;
-  border-bottom: 3px solid #0052FE;
+  color: #0141cf;
+  border-bottom: 3px solid #0052fe;
 }
 
 .template {

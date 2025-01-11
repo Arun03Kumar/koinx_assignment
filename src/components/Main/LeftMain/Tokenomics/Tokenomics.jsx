@@ -60,7 +60,15 @@ const Tokenomics = () => {
           </div>
         </div>
       </div>
-      <p style={{ fontWeight: 500, lineHeight: "25.6px", color: "#3E424A", marginTop: "15px", marginBottom: "20px" }}>
+      <p
+        style={{
+          fontWeight: 500,
+          lineHeight: "25.6px",
+          color: "#3E424A",
+          marginTop: "15px",
+          marginBottom: "20px",
+        }}
+      >
         Lorem ipsum dolor sit amet consectetur. Cras aliquet tristique ornare
         vestibulum nunc dignissim vel consequat. Leo etiam nascetur bibendum
         amet enim sit eget leo amet. At metus orci augue fusce eleifend lectus

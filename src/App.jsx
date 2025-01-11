@@ -1,28 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import arrow from './assets/double_arrow.svg'
-import './App.css'
-import Header from './components/Header/Header'
-import LeftMain from './components/Main/LeftMain'
-import RightMain from './components/Main/RightMain'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import arrow from "./assets/double_arrow.svg";
+import "./App.css";
+import Header from "./components/Header/Header";
+import LeftMain from "./components/Main/LeftMain";
+import RightMain from "./components/Main/RightMain";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
       <Header />
-      <div className='heading_cr'>
-        <p style={{lineHeight: "17px", fontWeight: 400, color: "#3E5765", marginRight: "10px"}}>Cryptocurrencies</p>
+      <div className="heading_cr">
+        <p
+          style={{
+            lineHeight: "17px",
+            fontWeight: 400,
+            color: "#3E5765",
+            marginRight: "10px",
+          }}
+        >
+          Cryptocurrencies
+        </p>
         <img src={arrow} alt="" srcset="" />
-        <p style={{lineHeight: "17px", fontWeight: 500, color: "#0F1629", marginLeft: "6px"}}>Bitcoin</p>
+        <p
+          style={{
+            lineHeight: "17px",
+            fontWeight: 500,
+            color: "#0F1629",
+            marginLeft: "6px",
+          }}
+        >
+          Bitcoin
+        </p>
       </div>
-      <div className='main'>
+      <div className="main">
         <LeftMain />
         <RightMain />
       </div>
-    
+
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -44,7 +62,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;

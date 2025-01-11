@@ -14,7 +14,7 @@ export const BitcoinCard = ({ path, title, color }) => {
       }}
     >
       <img src={path} alt="" />
-      <div style={{marginLeft: "27px", marginTop: "8px"}}>
+      <div style={{ marginLeft: "27px", marginTop: "8px" }}>
         <p
           style={{
             fontSize: "20px",
@@ -22,7 +22,7 @@ export const BitcoinCard = ({ path, title, color }) => {
             color: "#FFF",
             lineHeight: "28px",
             marginRight: "10px",
-            marginBottom: "16px"
+            marginBottom: "16px",
           }}
         >
           {title}
@@ -39,7 +39,11 @@ export const BitcoinCard = ({ path, title, color }) => {
             // padding: "0px 14px",
           }}
         >
-          <p style={{ fontWeight: 600, lineHeight: "28px", marginRight: "5px" }}>Check Now</p>
+          <p
+            style={{ fontWeight: 600, lineHeight: "28px", marginRight: "5px" }}
+          >
+            Check Now
+          </p>
           <img src={arrow} alt="" />
         </div>
       </div>

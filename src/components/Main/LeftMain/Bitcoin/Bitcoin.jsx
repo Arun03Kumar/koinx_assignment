@@ -102,7 +102,7 @@ const Bitcoin = () => {
           margin: "15px 0px",
         }}
       />
-      <p style={{fontWeight: 500, lineHeight: "25.6px", color :"#3E424A"}}>
+      <p style={{ fontWeight: 500, lineHeight: "25.6px", color: "#3E424A" }}>
         Fermentum hendrerit imperdiet nulla viverra faucibus. Sit aliquam massa
         vel convallis duis ac. Mi adipiscing semper scelerisque porttitor
         pulvinar nunc risus. Fermentum potenti iaculis lacinia congue ipsum
