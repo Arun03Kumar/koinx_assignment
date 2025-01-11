@@ -37,6 +37,7 @@ export const Fundaments = () => {
         justifyContent: "space-between",
         gap: "80px",
         marginTop: "20px",
+        paddingBottom: "25px"
       }}
     >
       <div style={{ flex: 1 }}>
